@@ -1,0 +1,232 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(89, 89, 89, 0.2);
+  padding: 5px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.logo{
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+    color: darkred;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.game-item {
+    padding: 10px;
+    text-align: center;
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+.game-item:hover {
+    background-color: #520000;
+}
+
+.game-link {
+    text-decoration: none;
+    color: white;
+}
+
+#bg{
+  width: 100%;
+  height: 100vh;
+  background: #000; 
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.Title{
+  position: absolute;
+  color: #000;
+  text-shadow: 0 0 10px rgba( 255, 255, 255);
+}
+
+.subtitle{
+  position: absolute;
+  color: #000;
+  text-shadow: 0 0 10px rgba( 255, 255, 255);
+  top:120px;
+  text-align: center;
+}
+
+.button1 {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button5 {
+  margin: auto;
+  position: absolute;
+  top: 520px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button6 {
+  margin: auto;
+  position: absolute;
+  top: 640px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.button1:hover {
+  height: 42px;
+  width: 202px;
+}
+
+.button2:hover {
+  height: 42px;
+  width: 202px;
+}
+
+.button3:hover {
+  height: 42px;
+  width: 202px;
+}
+
+.button4:hover {
+  height: 42px;
+  width: 202px;
+}
+
+.button5:hover {
+  height: 42px;
+  width: 202px;
+}
+
+.button6:hover {
+  height: 42px;
+  width: 202px;
+}
+
+input{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 650px;
+}
+
+.newtab{
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+}
+
+.button3 {
+  margin: auto;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer; 
+}
+
+  .button2 {
+  margin: auto;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer; 
+}
+
+.button4 {
+  margin: auto;
+  position: absolute;
+  top: 390px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer; 
+}
+
+h1{
+  color: #000;
+  text-shadow: 0 0 10px rgba( 255, 255, 255);
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  overflow: hidden;
+}

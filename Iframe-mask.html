@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="https://images.assetsdelivery.com/compings_v2/elnurss/elnurss1803/elnurss180300126.jpg">
+  <style>
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      overflow: hidden;
+    }
+  </style>
+  <script>
+    function openInNewTab() {
+      const url = document.getElementById('url').value;
+      if (url) {
+        const newTab = window.open('about:blank');
+        newTab.document.write('<!DOCTYPE html><html><head><title>Embedded Site</title><style>body, html { margin: 0; padding: 0; } iframe { width: 100vw; height: 100vh; border: none; overflow: hidden; }</style></head><body><iframe src="' + url + '"></iframe></body></html>');
+        newTab.document.close();
+      } else {
+        alert('Please enter a URL');
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+     <a href="index.html"><img class="logo" src="https://images.assetsdelivery.com/compings_v2/elnurss/elnurss1803/elnurss180300126.jpg"></a>
+    <nav class="nav-bar">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="Games.html" class="nav-item">Games</a>
+        <a href="Chatroom.html" class="nav-item">Chatroom</a>
+        <a href="Chat-gpt.html" class="nav-item">Chat gpt</a>
+        <a href="Iframe-mask.html" class="nav-item">Iframe mask</a>
+      <a href="proxy.html" class="nav-item">Web proxy</a>
+    </nav>
+  </header>
+  <div id="bg"><h1 class="Title">Iframe masker</h1></div>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <input id="url" type="text" placeholder="Enter the URL you want to embed including https://">
+  <button class="newtab" onclick="openInNewTab()">Launch mask</button>
+</body>
+</html>
