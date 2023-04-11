@@ -30,6 +30,6 @@ To get started, simply visit our website at [https://libero-nos.xtra-x.repl.co/]
 
 ## Contributing
 
-We welcome contributions from anyone who is interested in adding new games or improving our website. If you have any suggestions or feedback, please feel free to reach out to us via email at [xtra.ex1@gmail.com](xtra.ex1@gmail.com).
+We welcome contributions from anyone who is interested in adding new games or improving our website. If you have any suggestions or feedback, please feel free to reach out to us via email at xtra.ex1@gmail.com
 
 Thanks for choosing Libero Nos! Have fun playing!
